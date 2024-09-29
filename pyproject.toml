@@ -1,0 +1,18 @@
+[project]
+name = "knowledge-graph-llm-heddent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.50.2",
+    "rdflib>=7.0.0",
+    "sparqlwrapper>=2.0.0",
+    "weaviate>=0.1.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "mypy>=1.11.2",
+]

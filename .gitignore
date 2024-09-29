@@ -1,0 +1,16 @@
+# Virtual env
+**/.venv*/
+
+# IDE
+**/.vscode/
+
+# Cache
+**/__pycache__/
+**/.mypy_cache/
+
+# Project files
+**/.python-version
+**/uv.lock
+
+# Secrets
+.env
