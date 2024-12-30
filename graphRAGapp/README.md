@@ -1,4 +1,4 @@
-This is the code needed to build a Graph RAG app. The article describing the app in detail and the accompanying code is here: 
+This is the code needed to build a Graph RAG app. The article describing the app in detail and the accompanying code is here: https://medium.com/towards-data-science/how-to-build-a-graph-rag-app-b323fc33ba06
 
 Here are the steps to get this running locally:
 
