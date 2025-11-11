@@ -1,0 +1,1222 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://evn.topbraidlive.org/evnprojects#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://topbraid.org/metadata#"
+    xmlns:j.2="http://ai.topbraid.org/shapes/ai-settings#"
+    xmlns:tosh="http://topbraid.org/tosh#"
+    xmlns:j.3="http://topbraid.org/neo4t#"
+    xmlns:j.4="http://topbraid.org/swa#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.5="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.6="http://topbraid.org/teamwork#"
+    xmlns:j.7="http://ai.topbraid.org/ai-service#"
+    xmlns:j.8="http://datashapes.org/dash#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="urn:x-evn-master:arxiv_benchmark_taxonomy" > 
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Cryptography and Security</j.5:prefLabel>
+    <j.5:notation>cs.CR</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/quant-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantum Physics</j.5:prefLabel>
+    <j.5:notation>quant-ph</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomies/arxiv_benchmark_taxonomy#test">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel>test</j.5:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:triple:%3Curn%3Ax-evn-master%3Aarxiv_benchmark_taxonomy%3E:%3Chttp%3A%2F%2Fai.topbraid.org%2Fshapes%2Fai-settings%23publishedProperty%3E:skos%3Arelated">
+    <j.2:isKeywordProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.2:isKeywordProperty>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</j.2:order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computer Vision and Pattern Recognition</j.5:prefLabel>
+    <j.5:notation>cs.CV</j.5:notation>
+    <j.5:related rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.optics"/>
+    <j.5:definition xml:lang="en">Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.ed-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Physics Education</j.5:prefLabel>
+    <j.5:notation>physics.ed-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Report of results of a research study, laboratory experience, assessment or classroom practice that represents a way to improve teaching and learning in physics. Also, report on misconceptions of students, textbook errors, and other similar information relative to promoting physics understanding.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.GN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Genomics</j.5:prefLabel>
+    <j.5:notation>q-bio.GN</j.5:notation>
+    <j.5:definition xml:lang="en">DNA sequencing and assembly; gene and motif finding; RNA editing and alternative splicing; genomic structure and processes (replication, transcription, methylation, etc); mutational processes.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.HO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">History and Overview</j.5:prefLabel>
+    <j.5:notation>math.HO</j.5:notation>
+    <j.5:definition xml:lang="en">Biographies, philosophy of mathematics, mathematics education, recreational mathematics, communication of mathematics, ethics in mathematics</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.PE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Populations and Evolution</j.5:prefLabel>
+    <j.5:notation>q-bio.PE</j.5:notation>
+    <j.5:definition xml:lang="en">Population dynamics, spatio-temporal and epidemiological models, dynamic speciation, co-evolution, biodiversity, foodwebs, aging; molecular evolution and phylogeny; directed evolution; origin of life</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CY">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computers and Society</j.5:prefLabel>
+    <j.5:notation>cs.CY</j.5:notation>
+    <j.5:definition xml:lang="en">Covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education. Roughly includes material in ACM Subject Classes K.0, K.2, K.3, K.4, K.5, and K.7.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.MF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mathematical Finance</j.5:prefLabel>
+    <j.5:notation>q-fin.MF</j.5:notation>
+    <j.5:definition xml:lang="en">Mathematical and analytical methods of finance, including stochastic, probabilistic and functional analysis, algebraic, geometric and other methods</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-th">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">High Energy Physics - Theory</j.5:prefLabel>
+    <j.5:notation>hep-th</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.LG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Machine Learning</j.5:prefLabel>
+    <j.5:notation>cs.LG</j.5:notation>
+    <j.5:definition xml:lang="en">Papers on all aspects of machine learning research (supervised, unsupervised, reinforcement learning, bandit problems, and so on) including also robustness, explanation, fairness, and methodology. cs.LG is also an appropriate primary category for applications of machine learning methods.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.QA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantum Algebra</j.5:prefLabel>
+    <j.5:notation>math.QA</j.5:notation>
+    <j.5:definition xml:lang="en">Quantum groups, skein theories, operadic and diagrammatic algebra, quantum field theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.EC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Economics</j.5:prefLabel>
+    <j.5:notation>q-fin.EC</j.5:notation>
+    <j.5:definition xml:lang="en">q-fin.EC is an alias for econ.GN. Economics, including micro and macro economics, international economics, theory of the firm, labor economics, and other economic topics outside finance</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin.SI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Exactly Solvable and Integrable Systems</j.5:prefLabel>
+    <j.5:notation>nlin.SI</j.5:notation>
+    <j.5:definition xml:lang="en">Exactly solvable systems, integrable PDEs, integrable ODEs, Painleve analysis, integrable discrete maps, solvable lattice models, integrable quantum systems</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.DC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Distributed, Parallel, and Cluster Computing</j.5:prefLabel>
+    <j.5:notation>cs.DC</j.5:notation>
+    <j.5:definition xml:lang="en">Covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing. Roughly includes material in ACM Subject Classes C.1.2, C.1.4, C.2.4, D.1.3, D.4.5, D.4.7, E.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.DB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Databases</j.5:prefLabel>
+    <j.5:notation>cs.DB</j.5:notation>
+    <j.5:definition xml:lang="en">Covers database management, datamining, and data processing. Roughly includes material in ACM Subject Classes E.2, E.5, H.0, H.2, and J.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.IM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Instrumentation and Methods for Astrophysics</j.5:prefLabel>
+    <j.5:notation>astro-ph.IM</j.5:notation>
+    <j.5:definition xml:lang="en">Detector and telescope design, experiment proposals. Laboratory Astrophysics. Methods for data analysis, statistical methods. Software, database design</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.ME">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Methodology</j.5:prefLabel>
+    <j.5:notation>stat.ME</j.5:notation>
+    <j.5:definition xml:lang="en">Design, Surveys, Model Selection, Multiple Testing, Multivariate Methods, Signal and Image Processing, Time Series, Smoothing, Spatial Statistics, Survival Analysis, Nonparametric and Semiparametric Methods</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.LO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Logic in Computer Science</j.5:prefLabel>
+    <j.5:notation>cs.LO</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all aspects of logic in computer science, including finite model theory, logics of programs, modal logic, and program verification. Programming language semantics should have Programming Languages as the primary subject area. Roughly includes material in ACM Subject Classes D.2.4, F.3.1, F.4.0, F.4.1, and F.4.2; some material in F.4.3 (formal languages) may also be appropriate here, although Computational Complexity is typically the more appropriate subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.med-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Medical Physics</j.5:prefLabel>
+    <j.5:notation>physics.med-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Radiation therapy. Radiation dosimetry. Biomedical imaging modelling.  Reconstruction, processing, and analysis. Biomedical system modelling and analysis. Health physics. New imaging or therapy modalities.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.OT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Other Quantitative Biology</j.5:prefLabel>
+    <j.5:notation>q-bio.OT</j.5:notation>
+    <j.5:definition xml:lang="en">Work in quantitative biology that does not fit into the other q-bio classifications</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.DM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Discrete Mathematics</j.5:prefLabel>
+    <j.5:notation>cs.DM</j.5:notation>
+    <j.5:definition xml:lang="en">Covers combinatorics, graph theory, applications of probability. Roughly includes material in ACM Subject Classes G.2 and G.3.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.AC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Commutative Algebra</j.5:prefLabel>
+    <j.5:notation>math.AC</j.5:notation>
+    <j.5:definition xml:lang="en">Commutative rings, modules, ideals, homological algebra, computational aspects, invariant theory, connections to algebraic geometry and combinatorics</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.DL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Digital Libraries</j.5:prefLabel>
+    <j.5:notation>cs.DL</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area). Roughly includes material in ACM Subject Classes H.3.5, H.3.6, H.3.7, I.7.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.ML">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Machine Learning</j.5:prefLabel>
+    <j.5:notation>stat.ML</j.5:notation>
+    <j.5:definition xml:lang="en">Covers machine learning papers (supervised, unsupervised, semi-supervised learning, graphical models, reinforcement learning, bandits, high dimensional inference, etc.) with a statistical or theoretical grounding</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:triple:%3Curn%3Ax-evn-master%3Aarxiv_benchmark_taxonomy%3E:%3Chttp%3A%2F%2Fai.topbraid.org%2Fshapes%2Fai-settings%23publishedProperty%3E:skos%3Adefinition">
+    <j.2:isKeywordProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.2:isKeywordProperty>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</j.2:order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.DS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Data Structures and Algorithms</j.5:prefLabel>
+    <j.5:notation>cs.DS</j.5:notation>
+    <j.5:definition xml:lang="en">Covers data structures and analysis of algorithms. Roughly includes material in ACM Subject Classes E.1, E.2, F.2.1, and F.2.2.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.flu-dyn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Fluid Dynamics</j.5:prefLabel>
+    <j.5:notation>physics.flu-dyn</j.5:notation>
+    <j.5:definition xml:lang="en">Turbulence, instabilities, incompressible/compressible flows, reacting flows. Aero/hydrodynamics, fluid-structure interactions, acoustics. Biological fluid dynamics, micro/nanofluidics, interfacial phenomena. Complex fluids, suspensions and granular flows, porous media flows. Geophysical flows, thermoconvective and stratified flows. Mathematical and computational methods for fluid dynamics, fluid flow models, experimental techniques.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.comp-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computational Physics</j.5:prefLabel>
+    <j.5:notation>physics.comp-ph</j.5:notation>
+    <j.5:definition xml:lang="en">All aspects of computational science applied to physics.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.IT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Information Theory</j.5:prefLabel>
+    <j.5:notation>math.IT</j.5:notation>
+    <j.5:definition xml:lang="en">math.IT is an alias for cs.IT. Covers theoretical and experimental aspects of information theory and coding.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.mtrl-sci">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Materials Science</j.5:prefLabel>
+    <j.5:notation>cond-mat.mtrl-sci</j.5:notation>
+    <j.5:definition xml:lang="en">Techniques, synthesis, characterization, structure.  Structural phase transitions, mechanical properties, phonons. Defects, adsorbates, interfaces</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.MA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Multiagent Systems</j.5:prefLabel>
+    <j.5:notation>cs.MA</j.5:notation>
+    <j.5:definition xml:lang="en">Covers multiagent systems, distributed artificial intelligence, intelligent agents, coordinated interactions. and practical applications. Roughly covers ACM Subject Class I.2.11.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.AG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Algebraic Geometry</j.5:prefLabel>
+    <j.5:notation>math.AG</j.5:notation>
+    <j.5:definition xml:lang="en">Algebraic varieties, stacks, sheaves, schemes, moduli spaces, complex geometry, quantum cohomology</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.AT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Algebraic Topology</j.5:prefLabel>
+    <j.5:notation>math.AT</j.5:notation>
+    <j.5:definition xml:lang="en">Homotopy theory, homological algebra, algebraic treatments of manifolds</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.AP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Analysis of PDEs</j.5:prefLabel>
+    <j.5:notation>math.AP</j.5:notation>
+    <j.5:definition xml:lang="en">Existence and uniqueness, boundary conditions, linear and non-linear operators, stability, soliton theory, integrable PDE's, conservation laws, qualitative dynamics</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.RA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Rings and Algebras</j.5:prefLabel>
+    <j.5:notation>math.RA</j.5:notation>
+    <j.5:definition xml:lang="en">Non-commutative rings and algebras, non-associative algebras, universal algebra and lattice theory, linear algebra, semigroups</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.TR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Trading and Market Microstructure</j.5:prefLabel>
+    <j.5:notation>q-fin.TR</j.5:notation>
+    <j.5:definition xml:lang="en">Market microstructure, liquidity, exchange and auction design, automated trading, agent-based modeling and market-making</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-lat">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">High Energy Physics - Lattice</j.5:prefLabel>
+    <j.5:notation>hep-lat</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.MM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Multimedia</j.5:prefLabel>
+    <j.5:notation>cs.MM</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Class H.5.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mathematical Physics</j.5:prefLabel>
+    <j.5:notation>math-ph</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ.GN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Economics</j.5:prefLabel>
+    <j.5:notation>econ.GN</j.5:notation>
+    <j.5:definition xml:lang="en">General methodological, applied, and empirical contributions to economics.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.chem-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Chemical Physics</j.5:prefLabel>
+    <j.5:notation>physics.chem-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Experimental, computational, and theoretical physics of atoms, molecules, and clusters - Classical and quantum description of states, processes, and dynamics; spectroscopy, electronic structure, conformations, reactions, interactions, and phases. Chemical thermodynamics. Disperse systems. High pressure chemistry. Solid state chemistry. Surface and interface chemistry.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin.CG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Cellular Automata and Lattice Gases</j.5:prefLabel>
+    <j.5:notation>nlin.CG</j.5:notation>
+    <j.5:definition xml:lang="en">Computational methods, time series analysis, signal processing, wavelets, lattice gases</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.MS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mathematical Software</j.5:prefLabel>
+    <j.5:notation>cs.MS</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Class G.4.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin.CD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Chaotic Dynamics</j.5:prefLabel>
+    <j.5:notation>nlin.CD</j.5:notation>
+    <j.5:definition xml:lang="en">Dynamical systems, chaos, quantum chaos, topological dynamics, cycle expansions, turbulence, propagation</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.RT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Representation Theory</j.5:prefLabel>
+    <j.5:notation>math.RT</j.5:notation>
+    <j.5:definition xml:lang="en">Linear representations of algebras and groups, Lie theory, associative algebras, multilinear algebra</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Astrophysics</j.5:prefLabel>
+    <j.5:notation>astro-ph</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess.SP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Signal Processing</j.5:prefLabel>
+    <j.5:notation>eess.SP</j.5:notation>
+    <j.5:definition xml:lang="en">Theory, algorithms, performance analysis and applications of signal and data analysis, including physical modeling, processing, detection and parameter estimation, learning, mining, retrieval, and information extraction. The term "signal" includes speech, audio, sonar, radar, geophysical, physiological, (bio-) medical, image, video, and multimodal natural and man-made signals, including communication signals and data. Topics of interest include: statistical signal processing, spectral estimation and system identification; filter design, adaptive filtering / stochastic learning; (compressive) sampling, sensing, and transform-domain methods including fast algorithms; signal processing for machine learning and machine learning for signal processing applications; in-network and graph signal processing; convex and nonconvex optimization methods for signal processing applications; radar, sonar, and sensor array beamforming and direction finding; communications signal processing; low power, multi-core and system-on-chip signal processing; sensing, communication, analysis and optimization for cyber-physical systems such as power grids and the Internet of Things.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.OT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Other Statistics</j.5:prefLabel>
+    <j.5:notation>stat.OT</j.5:notation>
+    <j.5:definition xml:lang="en">Work in statistics that does not fit into the other stat classifications</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.atm-clus">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Atomic and Molecular Clusters</j.5:prefLabel>
+    <j.5:notation>physics.atm-clus</j.5:notation>
+    <j.5:definition xml:lang="en">Atomic and molecular clusters, nanoparticles: geometric, electronic, optical, chemical, magnetic properties, shell structure, phase transitions, optical spectroscopy, mass spectrometry, photoelectron spectroscopy, ionization potential, electron affinity, interaction with intense light pulses, electron diffraction, light scattering, ab initio calculations, DFT theory, fragmentation, Coulomb explosion, hydrodynamic expansion.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.AR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Hardware Architecture</j.5:prefLabel>
+    <j.5:notation>cs.AR</j.5:notation>
+    <j.5:definition xml:lang="en">Covers systems organization and hardware architecture. Roughly includes material in ACM Subject Classes C.0, C.1, and C.5.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.GN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Finance</j.5:prefLabel>
+    <j.5:notation>q-fin.GN</j.5:notation>
+    <j.5:definition xml:lang="en">Development of general quantitative methodologies with applications in finance</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.NT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Number Theory</j.5:prefLabel>
+    <j.5:notation>math.NT</j.5:notation>
+    <j.5:definition xml:lang="en">Prime numbers, diophantine equations, analytic number theory, algebraic number theory, arithmetic geometry, Galois theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.NC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Neurons and Cognition</j.5:prefLabel>
+    <j.5:notation>q-bio.NC</j.5:notation>
+    <j.5:definition xml:lang="en">Synapse, cortex, neuronal dynamics, neural network, sensorimotor control, behavior, attention</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.OC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Optimization and Control</j.5:prefLabel>
+    <j.5:notation>math.OC</j.5:notation>
+    <j.5:definition xml:lang="en">Operations research, linear programming, control theory, systems theory, optimal control, game theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.HE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">High Energy Astrophysical Phenomena</j.5:prefLabel>
+    <j.5:notation>astro-ph.HE</j.5:notation>
+    <j.5:definition xml:lang="en">Cosmic ray production, acceleration, propagation, detection. Gamma ray astronomy and bursts, X-rays, charged particles, supernovae and other explosive phenomena, stellar remnants and accretion systems, jets, microquasars, neutron stars, pulsars, black holes</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.OA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Operator Algebras</j.5:prefLabel>
+    <j.5:notation>math.OA</j.5:notation>
+    <j.5:definition xml:lang="en">Algebras of operators on Hilbert space, C^*-algebras, von Neumann algebras, non-commutative geometry</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mathematics</j.5:prefLabel>
+    <j.5:notation>math</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.RO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Robotics</j.5:prefLabel>
+    <j.5:notation>cs.RO</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Class I.2.9.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.dis-nn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Disordered Systems and Neural Networks</j.5:prefLabel>
+    <j.5:notation>cond-mat.dis-nn</j.5:notation>
+    <j.5:definition xml:lang="en">Glasses and spin glasses; properties of random, aperiodic and quasiperiodic systems; transport in disordered media; localization; phenomena mediated by defects and disorder; neural networks</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Electrical Engineering and Systems Science</j.5:prefLabel>
+    <j.5:notation>eess</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin.PS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Pattern Formation and Solitons</j.5:prefLabel>
+    <j.5:notation>nlin.PS</j.5:notation>
+    <j.5:definition xml:lang="en">Pattern formation, coherent structures, solitons</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.MN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Molecular Networks</j.5:prefLabel>
+    <j.5:notation>q-bio.MN</j.5:notation>
+    <j.5:definition xml:lang="en">Gene regulation, signal transduction, proteomics, metabolomics, gene and enzymatic networks</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Economics</j.5:prefLabel>
+    <j.5:notation>econ</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.optics">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Optics</j.5:prefLabel>
+    <j.5:notation>physics.optics</j.5:notation>
+    <j.5:related rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CV"/>
+    <j.5:definition xml:lang="en">Adaptive optics. Astronomical optics. Atmospheric optics. Biomedical optics. Cardinal points. Collimation. Doppler effect. Fiber optics. Fourier optics. Geometrical optics (Gradient index optics. Holography. Infrared optics. Integrated optics. Laser applications. Laser optical systems. Lasers. Light amplification. Light diffraction. Luminescence. Microoptics. Nano optics. Ocean optics. Optical computing. Optical devices. Optical imaging. Optical materials. Optical metrology. Optical microscopy. Optical properties. Optical signal processing. Optical testing techniques. Optical wave propagation. Paraxial optics. Photoabsorption. Photoexcitations. Physical optics. Physiological optics. Quantum optics. Segmented optics. Spectra. Statistical optics. Surface optics. Ultrafast optics. Wave optics. X-ray optics.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.GT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Geometric Topology</j.5:prefLabel>
+    <j.5:notation>math.GT</j.5:notation>
+    <j.5:definition xml:lang="en">Manifolds, orbifolds, polyhedra, cell complexes, foliations, geometric structures</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.SD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Sound</j.5:prefLabel>
+    <j.5:notation>cs.SD</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all aspects of computing with sound, and sound as an information channel. Includes models of sound, analysis and synthesis, audio user interfaces, sonification of data, computer music, and sound signal processing. Includes ACM Subject Class H.5.5, and intersects with H.1.2, H.5.1, H.5.2, I.2.7, I.5.4, I.6.3, J.5, K.4.2.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.GR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Group Theory</j.5:prefLabel>
+    <j.5:notation>math.GR</j.5:notation>
+    <j.5:definition xml:lang="en">Finite groups, topological groups, representation theory, cohomology, classification and structure</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.SC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Symbolic Computation</j.5:prefLabel>
+    <j.5:notation>cs.SC</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Class I.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.quant-gas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantum Gases</j.5:prefLabel>
+    <j.5:notation>cond-mat.quant-gas</j.5:notation>
+    <j.5:definition xml:lang="en">Ultracold atomic and molecular gases, Bose-Einstein condensation, Feshbach resonances, spinor condensates, optical lattices, quantum simulation with cold atoms and molecules, macroscopic interference phenomena</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.GA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Astrophysics of Galaxies</j.5:prefLabel>
+    <j.5:notation>astro-ph.GA</j.5:notation>
+    <j.5:definition xml:lang="en">Phenomena pertaining to galaxies or the Milky Way. Star clusters, HII regions and planetary nebulae, the interstellar medium, atomic and molecular clouds, dust. Stellar populations. Galactic structure, formation, dynamics. Galactic nuclei, bulges, disks, halo. Active Galactic Nuclei, supermassive black holes, quasars. Gravitational lens systems. The Milky Way and its contents</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.SE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Software Engineering</j.5:prefLabel>
+    <j.5:notation>cs.SE</j.5:notation>
+    <j.5:definition xml:lang="en">Covers design tools, software metrics, testing and debugging, programming environments, etc. Roughly includes material in all of ACM Subject Classes D.2, except that D.2.4 (program verification) should probably have Logics in Computer Science as the primary subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Condensed Matter</j.5:prefLabel>
+    <j.5:notation>cond-mat</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.GN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Topology</j.5:prefLabel>
+    <j.5:notation>math.GN</j.5:notation>
+    <j.5:definition xml:lang="en">Continuum theory, point-set topology, spaces with algebraic structure, foundations, dimension theory, local and global properties</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.GM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Mathematics</j.5:prefLabel>
+    <j.5:notation>math.GM</j.5:notation>
+    <j.5:definition xml:lang="en">Mathematical material of general interest, topics not covered elsewhere</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.SI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Social and Information Networks</j.5:prefLabel>
+    <j.5:notation>cs.SI</j.5:notation>
+    <j.5:definition xml:lang="en">Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computational Complexity</j.5:prefLabel>
+    <j.5:notation>cs.CC</j.5:notation>
+    <j.5:definition xml:lang="en">Covers models of computation, complexity classes, structural complexity, complexity tradeoffs, upper and lower bounds. Roughly includes material in ACM Subject Classes F.1 (computation by abstract devices), F.2.3 (tradeoffs among complexity measures), and F.4.3 (formal languages), although some material in formal languages may be more appropriate for Logic in Computer Science. Some material in F.2.1 and F.2.2, may also be appropriate here, but is more likely to have Data Structures and Algorithms as the primary subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computational Engineering, Finance, and Science</j.5:prefLabel>
+    <j.5:notation>cs.CE</j.5:notation>
+    <j.5:definition xml:lang="en">Covers applications of computer science to the mathematical modeling of complex systems in the fields of science, engineering, and finance. Papers here are interdisciplinary and applications-oriented, focusing on techniques and tools that enable challenging computational simulations to be performed, for which the use of supercomputers or distributed computing platforms is often required. Includes material in ACM Subject Classes J.2, J.3, and J.4 (economics).</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess.SY">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Systems and Control</j.5:prefLabel>
+    <j.5:notation>eess.SY</j.5:notation>
+    <j.5:definition xml:lang="en">This section includes theoretical and experimental research covering all facets of automatic control systems. The section is focused on methods of control system analysis and design using tools of modeling, simulation and optimization. Specific areas of research include nonlinear, distributed, adaptive, stochastic and robust control in addition to hybrid and discrete event systems. Application areas include automotive and aerospace control systems, network control, biological systems, multiagent and cooperative control, robotics, reinforcement learning, sensor networks, control of cyber-physical and energy-related systems, and control of computing systems.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computational Geometry</j.5:prefLabel>
+    <j.5:notation>cs.CG</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Classes I.3.5 and F.2.2.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin.AO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Adaptation and Self-Organizing Systems</j.5:prefLabel>
+    <j.5:notation>nlin.AO</j.5:notation>
+    <j.5:definition xml:lang="en">Adaptation, self-organizing systems, statistical physics, fluctuating systems, stochastic processes, interacting particle systems, machine learning</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computer Science</j.5:prefLabel>
+    <j.5:notation>cs</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.SY">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Systems and Control</j.5:prefLabel>
+    <j.5:notation>cs.SY</j.5:notation>
+    <j.5:definition xml:lang="en">cs.SY is an alias for eess.SY. This section includes theoretical and experimental research covering all facets of automatic control systems. The section is focused on methods of control system analysis and design using tools of modeling, simulation and optimization. Specific areas of research include nonlinear, distributed, adaptive, stochastic and robust control in addition to hybrid and discrete event systems. Application areas include automotive and aerospace control systems, network control, biological systems, multiagent and cooperative control, robotics, reinforcement learning, sensor networks, control of cyber-physical and energy-related systems, and control of computing systems.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.CL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computation and Language</j.5:prefLabel>
+    <j.5:notation>cs.CL</j.5:notation>
+    <j.5:definition xml:lang="en">Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.PR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Probability</j.5:prefLabel>
+    <j.5:notation>math.PR</j.5:notation>
+    <j.5:definition xml:lang="en">Theory and applications of probability and stochastic processes: e.g. central limit theorems, large deviations, stochastic differential equations, models from statistical mechanics, queuing theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.data-an">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Data Analysis, Statistics and Probability</j.5:prefLabel>
+    <j.5:notation>physics.data-an</j.5:notation>
+    <j.5:definition xml:lang="en">Methods, software and hardware for physics data analysis: data processing and storage; measurement methodology; statistical and mathematical aspects such as parametrization and uncertainties.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Statistics</j.5:prefLabel>
+    <j.5:notation>stat</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.geo-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Geophysics</j.5:prefLabel>
+    <j.5:notation>physics.geo-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Atmospheric physics. Biogeosciences. Computational geophysics. Geographic location. Geoinformatics. Geophysical techniques. Hydrospheric geophysics. Magnetospheric physics. Mathematical geophysics. Planetology. Solar system. Solid earth geophysics. Space plasma physics. Mineral physics. High pressure physics.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.str-el">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Strongly Correlated Electrons</j.5:prefLabel>
+    <j.5:notation>cond-mat.str-el</j.5:notation>
+    <j.5:definition xml:lang="en">Quantum magnetism, non-Fermi liquids, spin liquids, quantum criticality, charge density waves, metal-insulator transitions</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">High Energy Physics - Phenomenology</j.5:prefLabel>
+    <j.5:notation>hep-ph</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/taxonomies/arxiv_benchmark_taxonomy#Neo4jIntegration-d477b7a5-772e-4024-91d6-f78d8bd26801">
+    <rdf:type rdf:resource="http://topbraid.org/neo4t#Neo4jDataIntegration"/>
+    <rdfs:comment>Can be used to export all instances of the selected (included) classes as Neo4j nodes and edges.</rdfs:comment>
+    <rdfs:label>Integration with Neo4j database neo4jUATTest</rdfs:label>
+    <j.3:databaseId>neo4jUATTest</j.3:databaseId>
+    <j.8:pushScript rdf:resource="http://topbraid.org/neo4t#PushAssetsToNeo4j"/>
+    <j.3:includedClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.8:lastPushEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-02T18:27:15.185Z</j.8:lastPushEndTime>
+    <j.8:lastPushStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-02T18:27:07.221Z</j.8:lastPushStartTime>
+    <j.3:alwaysOverwrite rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.3:alwaysOverwrite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.space-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Space Physics</j.5:prefLabel>
+    <j.5:notation>physics.space-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Space plasma physics. Heliophysics. Space weather. Planetary magnetospheres, ionospheres and magnetotail. Auroras. Interplanetary space. Cosmic rays. Synchrotron radiation. Radio astronomy.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.PF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Performance</j.5:prefLabel>
+    <j.5:notation>cs.PF</j.5:notation>
+    <j.5:definition xml:lang="en">Covers performance measurement and evaluation, queueing, and simulation. Roughly includes material in ACM Subject Classes D.4.8 and K.6.2.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.ins-det">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Instrumentation and Detectors</j.5:prefLabel>
+    <j.5:notation>physics.ins-det</j.5:notation>
+    <j.5:definition xml:lang="en">Instrumentation and Detectors for research in natural science, including optical, molecular, atomic, nuclear and particle physics instrumentation and the associated electronics, services, infrastructure and control equipment. </j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/categories">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <j.5:prefLabel xml:lang="en">arXiv Categories</j.5:prefLabel>
+    <j.5:definition xml:lang="en">All categories from https://arxiv.org/category_taxonomy</j.5:definition>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math-ph"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/quant-ph"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-th"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/gr-qc"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nucl-ex"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-ex"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-lat"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nucl-th"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-ph"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+    <j.5:hasTopConcept rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+    <j.5:hasTopConcept rdf:resource="http://example.org/taxonomies/arxiv_benchmark_taxonomy#test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.soc-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Physics and Society</j.5:prefLabel>
+    <j.5:notation>physics.soc-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Structure, dynamics and collective behavior of societies and groups (human or otherwise). Quantitative analysis of social networks and other complex networks. Physics and engineering of infrastructure and systems of broad societal impact (e.g., energy grids, transportation networks).</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.HC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Human-Computer Interaction</j.5:prefLabel>
+    <j.5:notation>cs.HC</j.5:notation>
+    <j.5:definition xml:lang="en">Covers human factors, user interfaces, and collaborative computing. Roughly includes material in ACM Subject Classes H.1.2 and all of H.5, except for H.5.1, which is more likely to have Multimedia as the primary subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.mes-hall">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mesoscale and Nanoscale Physics</j.5:prefLabel>
+    <j.5:notation>cond-mat.mes-hall</j.5:notation>
+    <j.5:definition xml:lang="en">Semiconducting nanostructures: quantum dots, wires, and wells. Single electronics, spintronics, 2d electron gases, quantum Hall effect, nanotubes, graphene, plasmonic nanostructures</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.DS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Dynamical Systems</j.5:prefLabel>
+    <j.5:notation>math.DS</j.5:notation>
+    <j.5:definition xml:lang="en">Dynamics of differential equations and flows, mechanics, classical few-body problems, iterations, complex dynamics, delayed differential equations</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.AP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Applications</j.5:prefLabel>
+    <j.5:notation>stat.AP</j.5:notation>
+    <j.5:definition xml:lang="en">Biology, Education, Epidemiology, Engineering, Environmental Sciences, Medical, Physical Sciences, Quality Control, Social Sciences</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.PL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Programming Languages</j.5:prefLabel>
+    <j.5:notation>cs.PL</j.5:notation>
+    <j.5:definition xml:lang="en">Covers programming language semantics, language features, programming approaches (such as object-oriented programming, functional programming, logic programming). Also includes material on compilers oriented towards programming languages; other material on compilers may be more appropriate in Architecture (AR). Roughly includes material in ACM Subject Classes D.1 and D.3.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.MG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Metric Geometry</j.5:prefLabel>
+    <j.5:notation>math.MG</j.5:notation>
+    <j.5:definition xml:lang="en">Euclidean, hyperbolic, discrete, convex, coarse geometry, comparisons in Riemannian geometry, symmetric spaces</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.EP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Earth and Planetary Astrophysics</j.5:prefLabel>
+    <j.5:notation>astro-ph.EP</j.5:notation>
+    <j.5:definition xml:lang="en">Interplanetary medium, planetary physics, planetary astrobiology, extrasolar planets, comets, asteroids, meteorites. Structure and formation of the solar system</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.supr-con">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Superconductivity</j.5:prefLabel>
+    <j.5:notation>cond-mat.supr-con</j.5:notation>
+    <j.5:definition xml:lang="en">Superconductivity: theory, models, experiment.  Superflow in helium</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.MP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Mathematical Physics</j.5:prefLabel>
+    <j.5:notation>math.MP</j.5:notation>
+    <j.5:definition xml:lang="en">math.MP is an alias for math-ph. Articles in this category focus on areas of research that illustrate the application of mathematics to problems in physics, develop mathematical methods for such applications, or provide mathematically rigorous formulations of existing physical theories. Submissions to math-ph should be of interest to both physically oriented mathematicians and mathematically oriented physicists; submissions which are primarily of interest to theoretical physicists or to mathematicians should probably be directed to the respective physics/math categories</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.CB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Cell Behavior</j.5:prefLabel>
+    <j.5:notation>q-bio.CB</j.5:notation>
+    <j.5:definition xml:lang="en">Cell-cell signaling and interaction; morphogenesis and development; apoptosis; bacterial conjugation; viral-host interaction; immunology</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.class-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Classical Physics</j.5:prefLabel>
+    <j.5:notation>physics.class-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Newtonian and relativistic dynamics; many particle systems; planetary motions; chaos in classical dynamics. Maxwell's  equations and  dynamics of charged systems and  electromagnetic forces in materials. Vibrating systems such as membranes and cantilevers; optomechanics. Classical waves, including acoustics and elasticity; physics of music and musical instruments. Classical thermodynamics and  heat flow problems.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ.TH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Theoretical Economics</j.5:prefLabel>
+    <j.5:notation>econ.TH</j.5:notation>
+    <j.5:definition xml:lang="en">Includes theoretical contributions to Contract Theory, Decision Theory, Game Theory, General Equilibrium, Growth, Learning and Evolution, Macroeconomics, Market and Mechanism Design, and Social Choice.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.PR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Pricing of Securities</j.5:prefLabel>
+    <j.5:notation>q-fin.PR</j.5:notation>
+    <j.5:definition xml:lang="en">Valuation and hedging of financial securities, their derivatives, and structured products</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nucl-ex">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Nuclear Experiment</j.5:prefLabel>
+    <j.5:notation>nucl-ex</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantitative Biology</j.5:prefLabel>
+    <j.5:notation>q-bio</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-master:arxiv_benchmark_taxonomy">
+    <owl:imports rdf:resource="http://ai.topbraid.org/ai-service"/>
+    <owl:imports rdf:resource="http://topbraid.org/teamworkconstraints"/>
+    <owl:imports rdf:resource="http://topbraid.org/neo4t"/>
+    <owl:imports rdf:resource="http://topbraid.org/skos.shapes"/>
+    <owl:imports rdf:resource="http://topbraid.org/remote"/>
+    <owl:imports rdf:resource="http://topbraid.org/git"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <rdf:type rdf:resource="http://evn.topbraidlive.org/evnprojects#Taxonomy"/>
+    <j.1:status rdf:resource="http://topbraid.org/metadata#UnderDevelopmentStatus"/>
+    <rdfs:label>arXiv Categories</rdfs:label>
+    <j.4:defaultNamespace>http://example.org/taxonomies/arxiv_benchmark_taxonomy#</j.4:defaultNamespace>
+    <j.2:publishedClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.2:publishedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <j.2:publishedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <j.2:publishedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+    <j.7:vectorIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.7:vectorIndex>
+    <j.7:indexingInstancesTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</j.7:indexingInstancesTotal>
+    <j.7:indexingState>error</j.7:indexingState>
+    <j.7:indexingError>Error: Could not clear VectorIndex</j.7:indexingError>
+    <tosh:remoteEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://shedden:SteveH32!!@gdb1.topquadrant.com:7200/repositories/steveTest</tosh:remoteEndpoint>
+    <tosh:remoteCompleteMode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tosh:remoteCompleteMode>
+    <tosh:remoteEditable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</tosh:remoteEditable>
+    <tosh:remoteEndpointImplementation>GraphDB</tosh:remoteEndpointImplementation>
+    <tosh:remoteNamedGraph rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">steveTest</tosh:remoteNamedGraph>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.hist-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">History and Philosophy of Physics</j.5:prefLabel>
+    <j.5:notation>physics.hist-ph</j.5:notation>
+    <j.5:definition xml:lang="en">History and philosophy of all branches of physics, astrophysics, and cosmology, including appreciations of physicists.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.NA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Numerical Analysis</j.5:prefLabel>
+    <j.5:notation>math.NA</j.5:notation>
+    <j.5:definition xml:lang="en">Numerical algorithms for problems in analysis and algebra, scientific computation</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess.AS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Audio and Speech Processing</j.5:prefLabel>
+    <j.5:notation>eess.AS</j.5:notation>
+    <j.5:definition xml:lang="en">Theory and methods for processing signals representing audio, speech, and language, and their applications. This includes analysis, synthesis, enhancement, transformation, classification and interpretation of such signals as well as the design, development, and evaluation of associated signal processing systems. Machine learning and pattern analysis applied to any of the above areas is also welcome.  Specific topics of interest include: auditory modeling and hearing aids; acoustic beamforming and source localization; classification of acoustic scenes; speaker separation; active noise control and echo cancellation; enhancement; de-reverberation; bioacoustics; music signals analysis, synthesis and modification; music information retrieval;  audio for multimedia and joint audio-video processing; spoken and written language modeling, segmentation, tagging, parsing, understanding, and translation; text mining; speech production, perception, and psychoacoustics; speech analysis, synthesis, and perceptual modeling and coding; robust speech recognition; speaker recognition and characterization; deep learning, online learning, and graphical models applied to speech, audio, and language signals; and implementation aspects ranging from system architecture to fast algorithms.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantitative Finance</j.5:prefLabel>
+    <j.5:notation>q-fin</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.pop-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Popular Physics</j.5:prefLabel>
+    <j.5:notation>physics.pop-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Description coming soon</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.PM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Portfolio Management</j.5:prefLabel>
+    <j.5:notation>q-fin.PM</j.5:notation>
+    <j.5:definition xml:lang="en">Security selection and optimization, capital allocation, investment strategies and performance measurement</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess.IV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Image and Video Processing</j.5:prefLabel>
+    <j.5:notation>eess.IV</j.5:notation>
+    <j.5:definition xml:lang="en">Theory, algorithms, and architectures for the formation, capture, processing, communication, analysis, and display of images, video, and multidimensional signals in a wide variety of applications. Topics of interest include: mathematical, statistical, and perceptual image and video modeling and representation; linear and nonlinear filtering, de-blurring, enhancement, restoration, and reconstruction from degraded, low-resolution or tomographic data; lossless and lossy compression and coding; segmentation, alignment, and recognition; image rendering, visualization, and printing; computational imaging, including ultrasound, tomographic and magnetic resonance imaging; and image and video analysis, synthesis, storage, search and retrieval.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/eess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/gr-qc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Relativity and Quantum Cosmology</j.5:prefLabel>
+    <j.5:notation>gr-qc</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.FA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Functional Analysis</j.5:prefLabel>
+    <j.5:notation>math.FA</j.5:notation>
+    <j.5:definition xml:lang="en">Banach spaces, function spaces, real functions, integral transforms, theory of distributions, measure theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.TO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Tissues and Organs</j.5:prefLabel>
+    <j.5:notation>q-bio.TO</j.5:notation>
+    <j.5:definition xml:lang="en">Blood flow in vessels, biomechanics of bones, electrical waves, endocrine system, tumor growth</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.stat-mech">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Statistical Mechanics</j.5:prefLabel>
+    <j.5:notation>cond-mat.stat-mech</j.5:notation>
+    <j.5:definition xml:lang="en">Phase transitions, thermodynamics, field theory, non-equilibrium phenomena, renormalization group and scaling, integrable models, turbulence</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.acc-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Accelerator Physics</j.5:prefLabel>
+    <j.5:notation>physics.acc-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Accelerator theory and simulation. Accelerator technology. Accelerator experiments. Beam Physics. Accelerator design and optimization. Advanced accelerator concepts. Radiation sources including synchrotron light sources and free electron lasers. Applications of accelerators.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.IR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Information Retrieval</j.5:prefLabel>
+    <j.5:notation>cs.IR</j.5:notation>
+    <j.5:definition xml:lang="en">Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes material in ACM Subject Classes H.3.0, H.3.1, H.3.2, H.3.3, and H.3.4.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.AI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Artificial Intelligence</j.5:prefLabel>
+    <j.5:notation>cs.AI</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.IT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Information Theory</j.5:prefLabel>
+    <j.5:notation>cs.IT</j.5:notation>
+    <j.5:definition xml:lang="en">Covers theoretical and experimental aspects of information theory and coding. Includes material in ACM Subject Class E.4 and intersects with H.1.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.ET">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Emerging Technologies</j.5:prefLabel>
+    <j.5:notation>cs.ET</j.5:notation>
+    <j.5:definition xml:lang="en">Covers approaches to information processing (computing, communication, sensing) and bio-chemical analysis based on alternatives to silicon CMOS-based technologies, such as nanoscale electronic, photonic, spin-based, superconducting, mechanical, bio-chemical and quantum technologies (this list is not exclusive). Topics of interest include (1) building blocks for emerging technologies, their scalability and adoption in larger systems, including integration with traditional technologies, (2) modeling, design and optimization of novel devices and systems, (3) models of computation, algorithm design and programming for emerging technologies.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.ST">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Statistical Finance</j.5:prefLabel>
+    <j.5:notation>q-fin.ST</j.5:notation>
+    <j.5:definition xml:lang="en">Statistical, econometric and econophysics analyses with applications to financial markets and economic data</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.NA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Numerical Analysis</j.5:prefLabel>
+    <j.5:notation>cs.NA</j.5:notation>
+    <j.5:definition xml:lang="en">cs.NA is an alias for math.NA. Roughly includes material in ACM Subject Class G.1.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:triple:%3Curn%3Ax-evn-master%3Aarxiv_benchmark_taxonomy%3E:%3Chttp%3A%2F%2Fai.topbraid.org%2Fshapes%2Fai-settings%23publishedProperty%3E:skos%3AprefLabel">
+    <j.2:isKeywordProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.2:isKeywordProperty>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</j.2:order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.ao-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Atmospheric and Oceanic Physics</j.5:prefLabel>
+    <j.5:notation>physics.ao-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Atmospheric and oceanic physics and physical chemistry, biogeophysics, and climate science</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.CO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computation</j.5:prefLabel>
+    <j.5:notation>stat.CO</j.5:notation>
+    <j.5:definition xml:lang="en">Algorithms, Simulation, Visualization</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.NE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Neural and Evolutionary Computing</j.5:prefLabel>
+    <j.5:notation>cs.NE</j.5:notation>
+    <j.5:definition xml:lang="en">Covers neural networks, connectionism, genetic algorithms, artificial life, adaptive behavior. Roughly includes some material in ACM Subject Class C.1.3, I.2.6, I.5.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/hep-ex">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">High Energy Physics - Experiment</j.5:prefLabel>
+    <j.5:notation>hep-ex</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.SG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Symplectic Geometry</j.5:prefLabel>
+    <j.5:notation>math.SG</j.5:notation>
+    <j.5:definition xml:lang="en">Hamiltonian systems, symplectic flows, classical integrable systems</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.NI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Networking and Internet Architecture</j.5:prefLabel>
+    <j.5:notation>cs.NI</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all aspects of computer communication networks, including network architecture and design, network protocols, and internetwork standards (like TCP/IP). Also includes topics, such as web caching, that are directly relevant to Internet architecture and performance. Roughly includes all of ACM Subject Class C.2 except C.2.4, which is more likely to have Distributed, Parallel, and Cluster Computing as the primary subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.app-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Applied Physics</j.5:prefLabel>
+    <j.5:notation>physics.app-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Applications of physics to new technology, including electronic devices, optics, photonics, microwaves, spintronics, advanced materials, metamaterials, nanotechnology, and energy sciences.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.SP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Spectral Theory</j.5:prefLabel>
+    <j.5:notation>math.SP</j.5:notation>
+    <j.5:definition xml:lang="en">Schrodinger operators, operators on manifolds, general differential operators, numerical studies, integral operators, discrete models, resonances, non-self-adjoint operators, random operators/matrices</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.QM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Quantitative Methods</j.5:prefLabel>
+    <j.5:notation>q-bio.QM</j.5:notation>
+    <j.5:definition xml:lang="en">All experimental, numerical, statistical and mathematical contributions of value to biology</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.FL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Formal Languages and Automata Theory</j.5:prefLabel>
+    <j.5:notation>cs.FL</j.5:notation>
+    <j.5:definition xml:lang="en">Covers automata theory, formal language theory, grammars, and combinatorics on words. This roughly corresponds to ACM Subject Classes F.1.1, and F.4.3. Papers dealing with computational complexity should go to cs.CC; papers dealing with logic should go to cs.LO.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.bio-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Biological Physics</j.5:prefLabel>
+    <j.5:notation>physics.bio-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Molecular biophysics, cellular biophysics, neurological biophysics, membrane biophysics, single-molecule biophysics, ecological biophysics, quantum phenomena in biological systems (quantum biophysics), theoretical biophysics, molecular dynamics/modeling and simulation, game theory, biomechanics, bioinformatics, microorganisms, virology, evolution, biophysical methods.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.CO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Cosmology and Nongalactic Astrophysics</j.5:prefLabel>
+    <j.5:notation>astro-ph.CO</j.5:notation>
+    <j.5:definition xml:lang="en">Phenomenology of early universe, cosmic microwave background, cosmological parameters, primordial element abundances, extragalactic distance scale, large-scale structure of the universe. Groups, superclusters, voids, intergalactic medium. Particle astrophysics: dark energy, dark matter, baryogenesis, leptogenesis, inflationary models, reheating, monopoles, WIMPs, cosmic strings, primordial black holes, cosmological gravitational radiation</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.plasm-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Plasma Physics</j.5:prefLabel>
+    <j.5:notation>physics.plasm-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Fundamental plasma physics. Magnetically Confined Plasmas (includes magnetic fusion energy research). High Energy Density Plasmas (inertial confinement plasmas, laser-plasma interactions). Ionospheric, Heliophysical, and Astrophysical plasmas (includes sun and solar system plasmas). Lasers, Accelerators, and Radiation Generation. Low temperature plasmas and plasma applications (include dusty plasmas, semiconductor etching, plasma-based nanotechnology, medical applications). Plasma Diagnostics, Engineering and Enabling Technologies (includes fusion reactor design, heating systems, diagnostics, experimental techniques)</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.ST">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Statistics Theory</j.5:prefLabel>
+    <j.5:notation>math.ST</j.5:notation>
+    <j.5:definition xml:lang="en">Applied, computational and theoretical statistics: e.g. statistical inference, regression, time series, multivariate analysis, data analysis, Markov chain Monte Carlo, design of experiments, case studies</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.CP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computational Finance</j.5:prefLabel>
+    <j.5:notation>q-fin.CP</j.5:notation>
+    <j.5:definition xml:lang="en">Computational methods, including Monte Carlo, PDE, lattice and other numerical methods with applications to financial modeling</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.CA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Classical Analysis and ODEs</j.5:prefLabel>
+    <j.5:notation>math.CA</j.5:notation>
+    <j.5:definition xml:lang="en">Special functions, orthogonal polynomials, harmonic analysis, ODE's, differential relations, calculus of variations, approximations, expansions, asymptotics</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.gen-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Physics</j.5:prefLabel>
+    <j.5:notation>physics.gen-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Description coming soon</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.CO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Combinatorics</j.5:prefLabel>
+    <j.5:notation>math.CO</j.5:notation>
+    <j.5:definition xml:lang="en">Discrete mathematics, graph theory, enumeration, combinatorial optimization, Ramsey theory, combinatorial game theory</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.BM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Biomolecules</j.5:prefLabel>
+    <j.5:notation>q-bio.BM</j.5:notation>
+    <j.5:definition xml:lang="en">DNA, RNA, proteins, lipids, etc.; molecular structures and folding kinetics; molecular interactions; single-molecule manipulation.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Physics</j.5:prefLabel>
+    <j.5:notation>physics</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.KT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">K-Theory and Homology</j.5:prefLabel>
+    <j.5:notation>math.KT</j.5:notation>
+    <j.5:definition xml:lang="en">Algebraic and topological K-theory, relations with topology, commutative algebra, and operator algebras</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nucl-th">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Nuclear Theory</j.5:prefLabel>
+    <j.5:notation>nucl-th</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin.RM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Risk Management</j.5:prefLabel>
+    <j.5:notation>q-fin.RM</j.5:notation>
+    <j.5:definition xml:lang="en">Measurement and management of financial risks in trading, banking, insurance, corporate and other applications</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-fin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph.SR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Solar and Stellar Astrophysics</j.5:prefLabel>
+    <j.5:notation>astro-ph.SR</j.5:notation>
+    <j.5:definition xml:lang="en">White dwarfs, brown dwarfs, cataclysmic variables. Star formation and protostellar systems, stellar astrobiology, binary and multiple systems of stars, stellar evolution and structure, coronas. Central stars of planetary nebulae. Helioseismology, solar neutrinos, production and detection of gravitational radiation from stellar systems</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/astro-ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.CV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Complex Variables</j.5:prefLabel>
+    <j.5:notation>math.CV</j.5:notation>
+    <j.5:definition xml:lang="en">Holomorphic functions, automorphic group actions and forms, pseudoconvexity, complex geometry, analytic spaces, analytic sheaves</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.OH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Other Computer Science</j.5:prefLabel>
+    <j.5:notation>cs.OH</j.5:notation>
+    <j.5:definition xml:lang="en">This is the classification to use for documents that do not fit anywhere else.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.CT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Category Theory</j.5:prefLabel>
+    <j.5:notation>math.CT</j.5:notation>
+    <j.5:definition xml:lang="en">Enriched categories, topoi, abelian categories, monoidal categories, homological algebra</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio.SC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Subcellular Processes</j.5:prefLabel>
+    <j.5:notation>q-bio.SC</j.5:notation>
+    <j.5:definition xml:lang="en">Assembly and control of subcellular structures (channels, organelles, cytoskeletons, capsules, etc.); molecular motors, transport, subcellular localization; mitosis and meiosis</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/q-bio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat.TH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Statistics Theory</j.5:prefLabel>
+    <j.5:notation>stat.TH</j.5:notation>
+    <j.5:definition xml:lang="en">stat.TH is an alias for math.ST. Asymptotics, Bayesian Inference, Decision Theory, Estimation, Foundations, Inference, Testing.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/stat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.other">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Other Condensed Matter</j.5:prefLabel>
+    <j.5:notation>cond-mat.other</j.5:notation>
+    <j.5:definition xml:lang="en">Work in condensed matter that does not fit into the other cond-mat classifications</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ.EM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Econometrics</j.5:prefLabel>
+    <j.5:notation>econ.EM</j.5:notation>
+    <j.5:definition xml:lang="en">Econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/econ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.GL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">General Literature</j.5:prefLabel>
+    <j.5:notation>cs.GL</j.5:notation>
+    <j.5:definition xml:lang="en">Covers introductory material, survey material, predictions of future trends, biographies, and miscellaneous computer-science related material. Roughly includes all of ACM Subject Class A, except it does not include conference proceedings (which will be listed in the appropriate subject area).</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics.atom-ph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Atomic Physics</j.5:prefLabel>
+    <j.5:notation>physics.atom-ph</j.5:notation>
+    <j.5:definition xml:lang="en">Atomic and molecular structure, spectra, collisions, and data. Atoms and molecules in external fields. Molecular dynamics and coherent and optical control. Cold atoms and molecules. Cold collisions. Optical lattices.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/physics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.OS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Operating Systems</j.5:prefLabel>
+    <j.5:notation>cs.OS</j.5:notation>
+    <j.5:definition xml:lang="en">Roughly includes material in ACM Subject Classes D.4.1, D.4.2., D.4.3, D.4.4, D.4.5, D.4.7, and D.4.9.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/nlin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Nonlinear Sciences</j.5:prefLabel>
+    <j.5:notation>nlin</j.5:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat.soft">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Soft Condensed Matter</j.5:prefLabel>
+    <j.5:notation>cond-mat.soft</j.5:notation>
+    <j.5:definition xml:lang="en">Membranes, polymers, liquid crystals, glasses, colloids, granular matter</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cond-mat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.LO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Logic</j.5:prefLabel>
+    <j.5:notation>math.LO</j.5:notation>
+    <j.5:definition xml:lang="en">Logic, set theory, point-set topology, formal mathematics</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math.DG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Differential Geometry</j.5:prefLabel>
+    <j.5:notation>math.DG</j.5:notation>
+    <j.5:definition xml:lang="en">Complex, contact, Riemannian, pseudo-Riemannian and Finsler geometry, relativity, gauge theory, global analysis</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/math"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.GR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Graphics</j.5:prefLabel>
+    <j.5:notation>cs.GR</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all aspects of computer graphics. Roughly includes material in all of ACM Subject Class I.3, except that I.3.5 is is likely to have Computational Geometry as the primary subject area.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs.GT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.5:prefLabel xml:lang="en">Computer Science and Game Theory</j.5:prefLabel>
+    <j.5:notation>cs.GT</j.5:notation>
+    <j.5:definition xml:lang="en">Covers all theoretical and applied aspects at the intersection of computer science and game theory, including work in mechanism design, learning in games (which may overlap with Learning), foundations of agent modeling in games (which may overlap with Multiagent systems), coordination, specification and formal methods for non-cooperative computational environments. The area also deals with applications of game theory to areas such as electronic commerce.</j.5:definition>
+    <j.5:broader rdf:resource="http://topbraid.org/dataset/benchmark/arxiv/taxonomy/cs"/>
+  </rdf:Description>
+</rdf:RDF>
